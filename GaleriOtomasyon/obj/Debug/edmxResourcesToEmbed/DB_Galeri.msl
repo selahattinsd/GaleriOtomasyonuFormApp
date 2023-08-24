@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_GaleriModelStoreContainer" CdmEntityContainer="DB_GaleriEntities">
+    <EntitySetMapping Name="Araclars">
+      <EntityTypeMapping TypeName="DB_GaleriModel.Araclar">
+        <MappingFragment StoreEntitySet="Araclar">
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="AracFiyat" ColumnName="AracFiyat" />
+          <ScalarProperty Name="AracNo" ColumnName="AracNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
